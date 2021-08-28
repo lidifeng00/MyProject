@@ -1,0 +1,239 @@
+body {
+  background-color: #fcf1e1;
+}
+.navigation {
+  background: url(../img/welcome.jpg);
+  background-repeat: no-repeat;
+  background-size:cover
+}
+
+nav {
+  text-align: center;
+  margin: auto;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: large;
+}
+
+.dropdown-menu {
+  background-color: #e6daca;
+  opacity: 0.8;
+}
+
+#story h2 {
+  text-align:center;
+  color: #616161;
+  font-family: Trebuchet MS, sans-serif;
+}
+#story h5{
+  text-align:center;
+  color: gray;
+  margin-top: 40px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+  line-height: 200%;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+#imageCarousel{
+  margin: 3% auto;
+  width:50%;
+}
+
+#tea-gallery{
+  text-align: center;
+  color: #616161;
+  font-family: Trebuchet MS, sans-serif;
+}
+.tea{
+  width: 250px;
+  height: 260px;
+}
+.card{
+  background-color: #ccb79b;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  /* width: 230px; */
+}
+
+.favorite-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0px;
+  right: 0px;
+}
+
+#findStore{
+  text-align: center;
+  color: #616161;
+  font-family: Trebuchet MS, sans-serif;
+}
+#footer{
+  background-color: #2E0000;
+  padding: 1%;
+}
+#footer a:link{
+  color: white;
+}
+#footer a:visited{
+  color: white;
+}
+#footer-logo{
+  float: left;
+  color: white;
+}
+.copyright{
+  text-align: left;
+  color: grey;
+  font-size: .80em;
+  font-style: italic;
+}
+#sign_float{
+  width:90px;
+  height:25px;
+  position:fixed;
+  right:0;
+  top:100px;
+}
+.btn-default{
+  border-color: #ccb79b;
+  background-color: #ccb79b;
+  font-family: Trebuchet MS, sans-serif;
+  color: #616161;
+}
+.btn-default:hover{
+  border-color: #ccb79b;
+  background-color: #ccb79b;
+  font-family: Trebuchet MS, sans-serif;
+  color: #616161;
+}
+.btn-default:focus{
+  border-color: #ccb79b;
+  background-color: #ccb79b;
+  font-family: Trebuchet MS, sans-serif;
+  color: #616161;
+}
+.btn-default:active{
+  border-color: #ccb79b;
+  background-color: #ac906c;
+  font-family: Trebuchet MS, sans-serif;
+  color: #616161;
+}
+
+#select-content {
+  padding: 20px;
+  margin-left: 20%;
+}
+
+#select-content h2 {
+  font-family: Georgia, serif;
+  font-weight: 550;
+}
+#select-content h6 {
+  color: #680303fb;
+  font-family: Georgia, serif;
+}
+#select-picture {
+  float: left;
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+}
+
+#select-options {
+  margin-left: 400px;
+}
+
+#addCart {
+  padding : 10px;
+  background-color:rgb(27, 26, 23);
+  color:aliceblue;
+  border-radius: 5px;
+}
+
+#addCart:disabled {
+  color:rgb(61, 61, 61);
+  background-color: #868686;
+  opacity: 0.8;
+}
+
+
+.teaContent {
+  flex-wrap: wrap;
+  flex: 1 60rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  font-weight:bolder ;
+  color: #742912;
+  background-color: #fff;
+  border-color: #e6e2de #e6e2de #fff;
+}
+
+.nav-link {
+  margin: 3px;
+  display: block;
+  padding: .5rem 1rem;
+  color: #808388;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #742912;
+}
+
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding:0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+.product {
+  /* margin:0px 10px 30px 30px; */
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 30px;
+  min-width: 20rem;
+  border: none;
+}
+
+
+.toCart {
+  margin-left: 2rem;
+}
+
+
+.mapContainer {
+  width: 80vw;
+  height: 60vh;
+  margin: 0 auto;
+}
+
+#location-find-store {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.tab-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* .card {} */
+
+

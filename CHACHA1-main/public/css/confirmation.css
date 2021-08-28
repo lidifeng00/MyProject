@@ -1,0 +1,50 @@
+.container-confirm .card{
+    width: 900px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#selectPayment{
+    display: inline;
+}
+
+#selectPayment2{
+    margin: 0;
+    position: absolute;
+    right: 5%;
+    height: 2em;
+    width: 25px;
+}
+
+
+.container-confirm input{
+    right: 30px;
+}
+
+#selectCoupon{
+    width: 150px;
+    background-color: #fcf1e1;
+}
+
+.priceConfirm1{
+
+}
+.priceConfirm2{
+    display: inline;
+    right: 5%;
+    position: absolute;
+}
+
+.geryP {
+    display: inline;
+    color: slategray;
+}
+
+.inlineP{
+    display: inline;
+}
+
+.redWarning{
+    color: red;
+    font-weight: bold;
+}

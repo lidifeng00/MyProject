@@ -1,0 +1,84 @@
+{
+  "name": "chacha",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.8",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "blueimp-md5": "^2.18.0",
+    "bootstrap": "^5.0.2",
+    "bootstrap-switch-button-react": "^1.2.0",
+    "concurrently": "^6.2.0",
+    "create-react-app": "^4.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.2",
+    "formik": "^2.2.9",
+    "google-api-wrapper": "^1.12.0",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12",
+    "react": "^17.0.2",
+    "react-addons": "^0.9.1-deprecated",
+    "react-bootstrap": "^2.0.0-beta.2",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^17.0.2",
+    "react-pure-render": "^1.0.2",
+    "react-query": "^3.19.1",
+    "react-redux": "^7.2.4",
+    "react-responsive-carousel": "^3.2.20",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0",
+    "sweetalert": "^2.1.2",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "api": "nodemon backend/server.js",
+    "dev": "concurrently \"npm start\" \"npm run api\""
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "author": "",
+  "license": "ISC"
+}

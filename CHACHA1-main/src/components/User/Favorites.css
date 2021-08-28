@@ -1,0 +1,12 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#favorites-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "a a a";
+  grid-auto-rows: auto;
+  padding: 10px;
+}

@@ -1,0 +1,19 @@
+.sidebar {
+  border-right: 2px solid #f3e2c9;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar li {
+  font-weight: bold;
+  background-color: #fcf1e1;
+  border-right: 5px solid #ccb79b;
+}
+
+.sidebar-link {
+  color: #616161;
+}
+

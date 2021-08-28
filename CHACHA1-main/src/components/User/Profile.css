@@ -1,0 +1,40 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#profile-main {
+  width: 80%
+}
+
+.profile-error {
+  color: red
+}
+
+.profie-screen-label {
+  font-weight: bold;
+}
+
+.profile-screen-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  display: block
+}
+.life-style-content-signin{
+  height: 40px;
+  margin: 10px;
+}
+
+.life-style-content-signin p{
+  display: block;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 0px;
+}
+.life-style-content-signin-switch{
+  float: right;
+  height: 40px;
+}

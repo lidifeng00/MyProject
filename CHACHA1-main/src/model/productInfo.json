@@ -1,0 +1,93 @@
+{
+    "products": [
+        {
+            "_id" : 1,
+            "title": "Bubble Tea",
+            "imgFileName": "bubble.webp",
+            "price": "$4.49",
+            "description":"Roasted Mountain Oolong milk Tea with chewy brown sugar pearls",
+            "type": "milkTea",
+            "productId" : "bubbleTea"
+        },
+
+        {
+            "_id" : 2,
+            "title": "Taro Milk Tea",
+            "imgFileName": "taro.webp",
+            "price": "$4.49",
+            "description":"Longan Black Tea infused organic milk with handmade real taro",
+            "type": "milkTea",
+            "productId" : "taroTea"
+        },
+
+        {
+            "_id" : 3,
+            "title": "Cheese Foam Tea",
+            "imgFileName": "cheese.webp",
+            "price": "$4.49",
+            "description":"Longan Black Tea infused organic milk tea with cheese foam on top",
+            "type": "milkTea",
+            "productId" : "cheeseTea"
+        },
+
+        {
+            "_id" : 4,
+            "title": "Mango Iced Tea",
+            "imgFileName": "mangoTea.jpg",
+            "price": "$4.49",
+            "description":"Signature Mango with premium green tea",
+            "type": "fruitTea",
+            "productId" : "mangoTea"
+        },
+
+        {
+            "_id" : 5,
+            "title": "Mix Berry Tea",
+            "imgFileName": "berry.jpg",
+            "price": "$4.49",
+            "description":"Strawberry, Buleberry, Raspberry with premium jasmine tea",
+            "type": "fruitTea",
+            "productId" : "berryTea"
+        },
+
+        {
+            "_id" : 6,
+            "title": "Passion Fruit QQ",
+            "imgFileName": "passion.jpeg",
+            "price": "$4.49",
+            "description":"Passion fruit jasmine green tea with crystal boba",
+            "type": "fruitTea",
+            "productId" : "passionFruitTea"
+        },
+
+        {
+            "_id" : 7,
+            "title": "Matcha Latte",
+            "imgFileName": "matcha.jpg",
+            "price": "$4.49",
+            "description":"Ceremonial Matcha Green Tea infused with classic milk",
+            "type": "specialtyDrinks",
+            "productId" : "matchaTea"
+        },
+
+        {
+            "_id" : 8,
+            "title": "Thai Tea",
+            "imgFileName": "thai.jpg",
+            "price": "$4.49",
+            "description":"Strongly Brewed Black Tea with condensed milk and ice",
+            "type": "specialtyDrinks",
+            "productId" : "thaiTea"
+        },
+
+        {
+            "_id" : 9,
+            "title": "Peach Oolong",
+            "imgFileName": "brew.jpg",
+            "price": "$4.49",
+            "description":"White Peach flavored Oolong Tea, freshly extracted by tea maker",
+            "type": "specialtyDrinks",
+            "productId" : "peachOolong"
+        }
+    ]
+}
